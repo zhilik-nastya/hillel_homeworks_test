@@ -1,0 +1,117 @@
+body {
+    font-family: 'Bitter', serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    background-image: url("../img/pattern.jpg");
+    background-repeat: repeat;
+}
+
+/* Верхний отступ */
+.header {
+    width: 900px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #f4f6f6;
+}
+
+/* Обертка */
+#wrapper {
+    width: 900px;
+    background-color: #fff;
+    margin: 0 auto;
+    text-align:left;
+    padding: 50px;
+}
+
+img {
+    margin: 0 auto;
+}
+
+/*Стили заголовков */
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    text-align: center;
+    color: #3399ff;
+    opacity: 0.6;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ff3366;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff9a66;
+    text-align: left;
+    padding: 20px 0px 20px 0px;
+}
+
+/* Стили параграфов */
+p {
+    padding: 5px 0px 5px 0px;
+}
+
+.p-style-1 {
+    padding-top: 30px;
+}
+
+/* Раздел Интересные факты */
+.interesting-facts-item {
+    color: #ff3366;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.interesting-facts-text {    
+    color: #333333;
+    font-weight: 500;
+}
+
+/* Цитаты */
+.quote-container {
+    width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #ccffff;
+    border-left: 4px solid #00cccc;
+    font-size: 20px;    
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    padding: 20px 10px 20px 20px;
+}
+
+/* Подраздел Окрас */
+.coat-color-item {
+    font-weight: 700;
+    color: #ff6600;
+}
+
+.coat-color-text {
+    color: #333333;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.coat-color-addition {
+    border-top: 3px dotted #666666;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+
+/* Нижний отступ */
+.footer {
+    width: 900px;
+    height: 15px;
+    background-color: #f4f6f6;
+    margin: 0 auto;
+}
